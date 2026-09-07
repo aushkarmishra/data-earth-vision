@@ -11,7 +11,6 @@ import {
   Pricing,
   Process,
   Services,
-  Testimonials,
   Tools,
   TrustStrip,
   Why,
@@ -64,7 +63,6 @@ function Home() {
         <Process />
         <Why />
         <Pricing />
-        <Testimonials />
         <Faq />
         <Contact />
         <FinalCta />

@@ -32,7 +32,6 @@ import {
   services,
   specializations,
   stats,
-  testimonials,
   tools,
   type Project,
   type Service,
@@ -458,32 +457,6 @@ export function Pricing() {
                   {p.cta} →
                 </a>
               </div>
-            </Reveal>
-          ))}
-        </ul>
-      </div>
-    </section>
-  );
-}
-
-/* ============ TESTIMONIALS ============ */
-export function Testimonials() {
-  return (
-    <section className="py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-5">
-        <SectionHeading eyebrow="Feedback" title="What Researchers Say." />
-        <ul className="mt-14 grid gap-4 md:grid-cols-3">
-          {testimonials.map((t, i) => (
-            <Reveal as="li" key={i} delay={i * 90}>
-              <figure className="card-tech h-full rounded-xl p-6">
-                <blockquote className="text-sm leading-relaxed text-muted-foreground">“{t.quote}”</blockquote>
-                <figcaption className="mt-6 border-t border-border pt-4">
-                  <span className="block text-sm font-medium text-foreground">{t.name}</span>
-                  <span className="block font-mono text-xs tracking-widest text-muted-foreground uppercase">
-                    {t.role}
-                  </span>
-                </figcaption>
-              </figure>
             </Reveal>
           ))}
         </ul>
