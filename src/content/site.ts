@@ -17,13 +17,12 @@ export const brand = {
 
 /* ---------- 1. CONTACT DETAILS (edit these) ---------- */
 export const contact = {
-  email: "[Your Email Here]",
-  phone: "[Your Mobile Number Here]",
-  location: "[Your Location Here]",
+  email: "[aushkarmishra@gmail.com]",
+  phone: "[8544432069]",
+  location: "[Srinagar, Uttarakhand, India]",
   socials: [
-    { label: "LinkedIn", href: "#" },
-    { label: "Instagram", href: "#" },
-    { label: "YouTube", href: "#" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/aushkar-mishra-8766a82b6/" },
+    { label: "Instagram", href: "https://www.instagram.com/aushkarmishra?stkn=MWFyaXpvenZrYmTxdQ==" },
   ],
 };
 
@@ -40,8 +39,8 @@ export const navLinks = [
 
 /* ---------- 3. STATS STRIP (placeholder values) ---------- */
 export const stats = [
-  { label: "Projects Completed", value: 25, suffix: "+" },
-  { label: "Research Areas", value: 8, suffix: "+" },
+  { label: "Projects Completed", value: 30, suffix: "+" },
+  { label: "Research Areas", value: 4, suffix: "+" },
 ];
 
 export const specializations = [
@@ -222,19 +221,19 @@ export const advantages = [
 /* ---------- 9. PRICING (placeholder prices — edit freely) ---------- */
 export const pricing = [
   {
-    name: "Essential",
-    blurb: "For simple research tasks.",
-    price: "₹XX",
+    name: "Map Making",
+    blurb: "For mapping tasks",
+    price: "Starting ₹500",
     featured: false,
-    items: ["Service Item 1", "Service Item 2", "Service Item 3"],
+    items: ["Study Area Map", "Sample sites map", "Remote Sensing data Maps","Interactive web maps"],
     cta: "Get a Quote",
   },
   {
     name: "Research",
-    blurb: "For complete research visualization projects.",
-    price: "₹XX",
+    blurb: "For complete research visualization and writing projects.",
+    price: "₹1000 - ₹10000",
     featured: true,
-    items: ["Service Item 1", "Service Item 2", "Service Item 3", "Service Item 4"],
+    items: ["Excel Data Manipulation", "Data visualization", "Trend Analysis", "Research Writing"],
     cta: "Get a Quote",
   },
   {
@@ -248,29 +247,29 @@ export const pricing = [
 ];
 
 /* ---------- 10. TESTIMONIALS ---------- */
-export const testimonials = [
-  {
-    quote: "Placeholder testimonial text describing how the research outputs were delivered clearly and on time.",
-    name: "Client Name",
-    role: "Researcher",
-  },
-  {
-    quote: "Placeholder testimonial text about map quality, communication and attention to scientific detail.",
-    name: "Client Name",
-    role: "Student",
-  },
-  {
-    quote: "Placeholder testimonial text about turning a complex dataset into a figure that reviewers understood.",
-    name: "Client Name",
-    role: "Organization",
-  },
-];
+// export const testimonials = [
+//   {
+//     quote: "Placeholder testimonial text describing how the research outputs were delivered clearly and on time.",
+//     name: "Client Name",
+//     role: "Researcher",
+//   },
+//   {
+//     quote: "Placeholder testimonial text about map quality, communication and attention to scientific detail.",
+//     name: "Client Name",
+//     role: "Student",
+//   },
+//   {
+//     quote: "Placeholder testimonial text about turning a complex dataset into a figure that reviewers understood.",
+//     name: "Client Name",
+//     role: "Organization",
+//   },
+// ];
 
 /* ---------- 11. FAQ ---------- */
 export const faqs = [
   {
     q: "What type of research projects do you work with?",
-    a: "Geology, environmental science, hydrogeology, geography, engineering and related fields — essentially any project with spatial or scientific data that needs to be analysed and communicated clearly.",
+    a: "Geology, environmental science, hydrogeology, geography, engineering, biology, social studies and related fields — essentially any project with spatial or scientific data that needs to be analysed and communicated clearly.",
   },
   {
     q: "Can you work with my existing GIS/data files?",
@@ -290,10 +289,10 @@ export const faqs = [
   },
   {
     q: "How is project pricing determined?",
-    a: "Pricing depends on the scope, the state of the data and the number of deliverables. Share your project details and you will receive a clear quote before work begins.",
+    a: "Pricing are flexible and depends on the scope, the state of the data and the number of deliverables. Share your project details and you will receive a clear quote before work begins.",
   },
   {
     q: "Can I request a custom service?",
-    a: "Yes. If your requirement does not fit the listed services, describe it in the enquiry form and a custom workflow can be arranged.",
+    a: "Yes. If your requirement does not fit the listed services, describe it in the mail and a custom workflow can be arranged.",
   },
 ];
